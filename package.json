@@ -1,0 +1,28 @@
+{
+  "name": "Bot-Framework",
+  "version": "1.0.0",
+  "description": "Main Framework for making Discord-Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graweedman/Bot-Framework.git"
+  },
+  "keywords": [
+    "Discord.js"
+  ],
+  "author": "Graweedman, niba12ww@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graweedman/Bot-Framework/issues"
+  },
+  "homepage": "https://github.com/graweedman/Bot-Framework#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.13"
+  }
+}
