@@ -1,4 +1,4 @@
-const UserManager = require("../../Users/UserManager")
+const UserManager = require("../../Managers/Users/UserManager")
 const moment = require("moment")
 const {MessageEmbed, User} = require("discord.js")
 

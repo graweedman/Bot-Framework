@@ -34,7 +34,7 @@ module.exports.User = (user, callBack) =>
     })
 }
 
-module.exports.SortedUsers = (sort, callBack)
+module.exports.SortedUsers = (sort, callBack) =>
 {
     UserModule.find().sort(sort).exec(callBack)
 }
